@@ -26,8 +26,9 @@
 
 #### 예제04: webmmvc.WebMvcApplication, JSP 함께 사용하기 (외부 WAS에 war 배포)
 1. JSTL/EL Dependency 추가
-2. Tomcat Jasper Dependency 추가
-3. JSTL View Reolver 설정 (application.yml, 미세설정)
-4. Handler 추가
-5. packaging(war) 수정
-6. Spring Boot Servlet Initializer 작성하기
+2. JSTL View Reolver 설정 (application.yml, 미세설정)
+3. Handler 추가
+4. packaging(war) 수정
+5. Spring Boot Servlet Initializer 작성하기
+### 예외
+6. Tomcat Jasper Dependency 추가
