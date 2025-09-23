@@ -7,9 +7,10 @@
 4. 간단한 Rest Controller 작성 및 Hanlder 작성
 
 #### 예제02: webmmvc.WebMvcApplication, MVC Controller, thymeleaf
-1. spring-boot-starter-thymeleaf starter dependency 추가 / Defaut 설정 사용해 보기
-2. thymeleaf 설정 조정 (application.yml, 미세설정)
-3. Handler 작성
+1. packaging: jar
+2. spring-boot-starter-thymeleaf starter dependency 추가 / Defaut 설정 사용해 보기
+3. thymeleaf 설정 조정 (application.yml, 미세설정)
+4. Handler 작성
 
 #### 예제03: webmmvc.WebMvcApplication, 서버 포트 및 context path 조정하기
 1. application.yml: 미세설정
@@ -25,10 +26,10 @@
    2) chrom: LiveReload++ 설치
 
 #### 예제04: webmmvc.WebMvcApplication, JSP 함께 사용하기 (외부 WAS에 war 배포)
-1. JSTL/EL Dependency 추가
-2. JSTL View Reolver 설정 (application.yml, 미세설정)
-3. Handler 추가
-4. packaging(war) 수정
+1. packaging: war
+2. JSTL/EL Dependency 추가
+3. JSTL View Reolver 설정 (application.yml, 미세설정)
+4. Handler 추가
 5. Spring Boot Servlet Initializer 작성하기
-### 예외
-6. Tomcat Jasper Dependency 추가
+
+[참고] eclipse에서는 Tomcat Jasper Dependency 추가해주면, jar 실행 시 JSP를 사용할 수 있다. 
