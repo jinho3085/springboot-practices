@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.bit2025</groupId>
-	<artifactId>springboot-myapplication</artifactId>
+	<artifactId>springboot-webmvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	
 	<properties>
@@ -40,5 +40,4 @@
 			</plugin>
 		</plugins>
 	</build>
-	
 </project>
