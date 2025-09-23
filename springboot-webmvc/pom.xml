@@ -18,10 +18,10 @@
 	</properties>
 	
 	<dependencies>
-		<!-- springboot core starter-->
+		<!-- springboot web starter-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter</artifactId>
+			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 		
 		<!-- springboot starter for testing -->
