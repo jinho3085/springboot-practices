@@ -11,7 +11,7 @@
 	<groupId>com.bit2025</groupId>
 	<artifactId>springboot-webmvc</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<packaging>war</packaging>
+	<packaging>jar</packaging>
 	
 	<properties>
 		<java.version>21</java.version>
@@ -19,10 +19,22 @@
 	</properties>
 	
 	<dependencies>
+		<!-- springboot devtools-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-devtools</artifactId>
+		</dependency>
+		
 		<!-- springboot web starter-->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
+		</dependency>
+		
+		<!-- springboot thymeleaf starter-->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-thymeleaf</artifactId>
 		</dependency>
 		
 		<!-- springboot starter for testing -->
@@ -33,19 +45,26 @@
 		</dependency>
 		
 		<!-- jstl -->
-			<dependency>
-				<groupId>jakarta.el</groupId>
-				<artifactId>jakarta.el-api</artifactId>
-				<version>6.0.0</version>
-			</dependency>
-			<dependency>
-				<groupId>jakarta.servlet.jsp.jstl</groupId>
-				<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
-			</dependency>
-			<dependency>
-				<groupId>org.glassfish.web</groupId>
-				<artifactId>jakarta.servlet.jsp.jstl</artifactId>
-			</dependency>
+		<dependency>
+			<groupId>jakarta.el</groupId>
+			<artifactId>jakarta.el-api</artifactId>
+			<version>6.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>jakarta.servlet.jsp.jstl</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.glassfish.web</groupId>
+			<artifactId>jakarta.servlet.jsp.jstl</artifactId>
+		</dependency>
+			
+		<!-- tomcat jasper -->
+		<dependency>
+			<groupId>org.apache.tomcat.embed</groupId>
+			<artifactId>tomcat-embed-jasper</artifactId>
+			<scope>provided</scope>
+		</dependency>
 	</dependencies>
 	
 	<build>
